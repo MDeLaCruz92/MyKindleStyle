@@ -12,6 +12,8 @@
 		826AE0F41E79F53300020B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826AE0F31E79F53300020B2F /* Assets.xcassets */; };
 		826AE0F71E79F53300020B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826AE0F51E79F53300020B2F /* LaunchScreen.storyboard */; };
 		826AE1021E7A2B3800020B2F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1011E7A2B3800020B2F /* Models.swift */; };
+		826AE1041E7AE0E300020B2F /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1031E7AE0E300020B2F /* BookCell.swift */; };
+		826AE1061E7B728000020B2F /* BookPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1051E7B728000020B2F /* BookPagerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		826AE0F61E79F53300020B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		826AE0F81E79F53300020B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826AE1011E7A2B3800020B2F /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		826AE1031E7AE0E300020B2F /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		826AE1051E7B728000020B2F /* BookPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPagerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				826AE0EE1E79F53300020B2F /* ViewController.swift */,
+				826AE1051E7B728000020B2F /* BookPagerController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				826AE1011E7A2B3800020B2F /* Models.swift */,
+				826AE1031E7AE0E300020B2F /* BookCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -160,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826AE1041E7AE0E300020B2F /* BookCell.swift in Sources */,
+				826AE1061E7B728000020B2F /* BookPagerController.swift in Sources */,
 				826AE1021E7A2B3800020B2F /* Models.swift in Sources */,
 				826AE0EF1E79F53300020B2F /* ViewController.swift in Sources */,
 				826AE0ED1E79F53300020B2F /* AppDelegate.swift in Sources */,
