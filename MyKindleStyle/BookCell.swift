@@ -22,7 +22,7 @@ class BookCell: UITableViewCell {
     let imageView = UIImageView()
     imageView.backgroundColor = .red
     imageView.translatesAutoresizingMaskIntoConstraints = false
-    imageView.image = #imageLiteral(resourceName: "profile_image")
+    imageView.image = #imageLiteral(resourceName: "steve_jobs")
     return imageView
   }()
   
