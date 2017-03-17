@@ -14,6 +14,7 @@
 		826AE1021E7A2B3800020B2F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1011E7A2B3800020B2F /* Models.swift */; };
 		826AE1041E7AE0E300020B2F /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1031E7AE0E300020B2F /* BookCell.swift */; };
 		826AE1061E7B728000020B2F /* BookPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1051E7B728000020B2F /* BookPagerController.swift */; };
+		826AE1081E7B871E00020B2F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826AE1071E7B871E00020B2F /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		826AE1011E7A2B3800020B2F /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		826AE1031E7AE0E300020B2F /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		826AE1051E7B728000020B2F /* BookPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookPagerController.swift; sourceTree = "<group>"; };
+		826AE1071E7B871E00020B2F /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				826AE1011E7A2B3800020B2F /* Models.swift */,
 				826AE1031E7AE0E300020B2F /* BookCell.swift */,
+				826AE1071E7B871E00020B2F /* PageCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				826AE1041E7AE0E300020B2F /* BookCell.swift in Sources */,
 				826AE1061E7B728000020B2F /* BookPagerController.swift in Sources */,
+				826AE1081E7B871E00020B2F /* PageCell.swift in Sources */,
 				826AE1021E7A2B3800020B2F /* Models.swift in Sources */,
 				826AE0EF1E79F53300020B2F /* ViewController.swift in Sources */,
 				826AE0ED1E79F53300020B2F /* AppDelegate.swift in Sources */,
