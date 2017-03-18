@@ -12,15 +12,33 @@ class BookCell: UITableViewCell {
   
   var book: Book? {
     didSet {
-      coverImageView.image = book?.image
       titleLabel.text = book?.title
       titleLabel.text = book?.author
+      
+      guard let coverImageUrl = book?.coverImageUrl else { return }
+      guard let url = URL(string: coverImageUrl) else { return }
+      
+      coverImageView.image = nil
+      
+      URLSession.shared.dataTask(with: url) { (data, response, error) in
+        if let err = error {
+          print("Failed to retrieve our book cover images: ", err)
+          return
+        }
+        
+        guard let imageData = data else { return }
+        let image = UIImage(data: imageData)
+        
+        DispatchQueue.main.async {
+          self.coverImageView.image = image
+        }
+        
+      }.resume()
     }
   }
   
   private let coverImageView: UIImageView = {
     let imageView = UIImageView()
-    imageView.backgroundColor = .red
     imageView.translatesAutoresizingMaskIntoConstraints = false
     imageView.image = #imageLiteral(resourceName: "steve_jobs")
     return imageView
